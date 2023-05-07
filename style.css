@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Rubik+Vinyl&family=Sevillana&display=swap');
+*{
+
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.background{
+    background: rgba(0, 0, 0, 0.5) url('../pics/hangmanbg4.jpeg')no-repeat center;
+    background-size: cover;
+    opacity: 0.7;
+    background-blend-mode: darken;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+}
+
+.container{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-around;  
+     width: 100%;
+     height: 80vh;
+}
+
+ .headsvg{
+    width: 45%;
+}
+.headsvg .heading{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color:rgb(236, 101, 17);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+
+.headsvg .heading h1{
+    font-family: 'Sevillana', cursive, sans-serif;
+}
+
+.headsvg .svg-container{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(247, 223, 179);
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+
+
+.container2{
+    width: 45%;
+    display: flex;
+    flex-direction: column;   
+}
+.words-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    margin: .5rem 0;
+    padding: 1rem 0;
+    border-radius: 10px;
+}
+.words-container .abc{
+   flex-basis: 10%;
+   background-color: rgb(247, 223, 179);
+   margin: .3rem;
+   padding: .6rem 1rem;
+   border: 2px solid rgb(236, 101, 17);
+   text-align: center;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+.words-container .abc:hover,.reset-container .reset-btn:hover{
+
+    background-color: rgb(233, 189, 108);
+    color: white;
+  
+ }
+
+.letters-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(255, 255, 255);
+   padding: 1rem ;
+  
+
+}
+.letters-container,.words-container .abc,.reset-container .reset-btn,.winlose-container{
+    border-radius: 10px;
+}
+.letters-container .letters{
+   border-bottom: 2px solid black;
+   margin: 0rem .5rem;
+   text-align: center;
+   width: 25px;
+   height: 25px;
+   color:rgb(236, 101, 17);
+   text-transform: capitalize;
+ }
+
+.reset-container{
+   
+    text-align: center;
+    margin: .5rem 0;
+}
+.reset-container .reset-btn{
+    padding: .5rem 1.5rem;
+   cursor:pointer;
+    outline: none;
+    background-color: rgb(247, 223, 179);
+    border: 2px solid rgb(236, 101, 17);
+
+}
+.winlose-container{
+    background-color:rgb(236, 101, 17);;
+    padding:1rem;
+    color: white;
+}

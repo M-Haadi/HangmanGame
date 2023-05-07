@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="shortcut icon" href="../pics/hangman.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="background">
+        
+    </div>
+    <!-- container starts -->
+<div class="container">
+
+
+    <div class="headsvg">
+<!-- heading starts -->
+
+<div class="heading">
+
+    <h1>Hangman Game</h1>
+
+
+
+    <!-- heading ends -->
+</div>
+
+
+
+<div class="svg-container">
+
+<svg height="200px" width="100%">
+
+<!-- rod -->
+    <line x1="60" y1="18" x2="60" y2="170" style="stroke:rgb(236, 101, 17);stroke-width:4" />
+
+    <line x1="60" y1="170" x2="110" y2="170" style="stroke:rgb(236, 101, 17);stroke-width:4" />
+
+    <line x1="20" y1="170" x2="60" y2="170" style="stroke:rgb(236, 101, 17);stroke-width:4" />
+
+    <line x1="60" y1="20" x2="140" y2="20" style="stroke:rgb(236, 101, 17);stroke-width:4" />
+    <line x1="140" y1="40" x2="140" y2="18" style="stroke:rgb(236, 101, 17);stroke-width:4" />
+<!-- rod ends -->
+
+
+
+<!-- face -->
+<circle      cx="140" cy="50" r="15" stroke="black" stroke-width="3" fill="black" class="face figure" />
+
+<!-- body -->
+<line x1="140" y1="63" x2="140" y2="110" style="stroke:black;stroke-width:3" class="man-body figure"/>
+
+<!-- left arm -->
+<line x1="100" y1="90" x2="140" y2="75" style="stroke:black;stroke-width:3" class="left-arm figure"/>
+
+<!-- right arm -->
+
+<line x1="140" y1="75" x2="180" y2="90" style="stroke:black;stroke-width:3" class="right-arm figure" />
+
+
+<!-- right leg -->
+
+<line x1="140" y1="110" x2="110" y2="150" style="stroke:black;stroke-width:3" class="right-leg figure"/>
+
+<!-- left leg -->
+<line x1="140" y1="110" x2="170" y2="150" style="stroke:black;stroke-width:3" class="left-leg figure" />
+
+
+</svg>
+
+
+</div>
+
+</div>
+
+
+<div class="container2">
+<div class="words-container">
+ 
+
+    <button class="abc">a</button>
+    <button class="abc">b</button>
+    <button class="abc">c</button>
+    <button class="abc">d</button>
+    <button class="abc">e</button>
+    <button class="abc">f</button>
+    <button class="abc">g</button>
+    <button class="abc">h</button>
+    <button class="abc">i</button>
+    <button class="abc">j</button>
+    <button class="abc">k</button>
+    <button class="abc">l</button>
+    <button class="abc">m</button>
+    <button class="abc">n</button>
+    <button class="abc">o</button>
+    <button class="abc">p</button>
+    <button class="abc">q</button>
+    <button class="abc">r</button>
+    <button class="abc">s</button>
+    <button class="abc">t</button>
+    <button class="abc">u</button>
+    <button class="abc">v</button>
+    <button class="abc">w</button>
+    <button class="abc">x</button>
+    <button class="abc">y</button>
+    <button class="abc">z</button>
+
+
+</div>
+
+<div class="letters-container">
+
+   
+</div>
+
+<div class="reset-container">
+  
+    <button class="reset-btn">Reset</button>
+    
+</div>
+
+<div class="winlose-container">
+
+    <div class="result">
+        winloose container
+    </div>
+
+</div>
+
+
+
+
+<!-- container2 ends -->
+</div>
+
+<!-- container ends -->
+</div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
